@@ -1,4 +1,4 @@
-FROM teddysun/xray
+FROM johnyterry/himi
 ENV TZ=Asia/Colombo
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
